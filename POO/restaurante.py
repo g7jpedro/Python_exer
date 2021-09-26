@@ -19,6 +19,10 @@ class Restaurante():
         print(f'O nome do restaurante é {self.nome}')
         print(f'O tipo de cozinha é {self.tipo}')
 
+    def aberto(self):
+        print(f'O restaurante {self.nome} está aberto')
 
-nome = Restaurante('Casa do João', 'Salgados')
-Restaurante.descrição_restaurante(nome)
+
+restaurante = Restaurante('Casa do João', 'Salgados')
+restaurante.descrição_restaurante()
+Restaurante.aberto(restaurante)
