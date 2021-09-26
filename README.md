@@ -1,2 +1,3 @@
 # Python_exer
  Meus exercícios resolvidos de python, Curso em vídeo, Pyhton brasil ...
+ Além de testes , etc ..
