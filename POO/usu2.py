@@ -31,7 +31,7 @@ pessoa.incrementar_tentativas_login()
 pessoa.incrementar_tentativas_login()
 pessoa.incrementar_tentativas_login()
 pessoa.incrementar_tentativas_login()
-pessoa.resetar_tentativas_login()
+
 pessoa.quant_tentativas_login()
 
 
