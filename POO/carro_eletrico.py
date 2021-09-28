@@ -46,6 +46,10 @@ class Bateria():
         menssagem += f' percorridos completo'
         print(menssagem)
 
+    def atualizar_bateria(self):
+        if self.bateria_nivel != 85:
+            self.bateria_nivel = 85
+
 
 class CarroEletrico(Carro):
     def __init__(self, marca, modelo, ano):
@@ -56,5 +60,7 @@ class CarroEletrico(Carro):
 my_choque = CarroEletrico('Tesla', 'Modelo S', 2018)
 print(my_choque.nome_descritivo())
 my_choque.bateria.descri_bateria()
+my_choque.bateria.distância_percorrida()
+my_choque.bateria.atualizar_bateria()
 my_choque.bateria.distância_percorrida()
 
