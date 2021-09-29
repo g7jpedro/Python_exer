@@ -1,5 +1,8 @@
 
 class Carro():
+    '''
+        Uma classe que representa um CARRO
+    '''
 
     def __init__(self, marca, modelo, ano):
         self.marca = marca
@@ -23,13 +26,4 @@ class Carro():
     def incrementando_odometro(self, quilometros):
         self.leitura_odometro += quilometros
 
-
-meu_carro = Carro('Chevrolet', 'Onix', '2018')
-print(meu_carro.nome_descritivo())
-
-meu_carro.atualizar_odometro(23500)
-meu_carro.ler_odometro()
-
-meu_carro.incrementando_odometro(100)
-meu_carro.ler_odometro()
 
