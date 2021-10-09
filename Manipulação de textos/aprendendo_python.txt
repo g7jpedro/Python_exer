@@ -1,0 +1,5 @@
+Em python podemos criar listas
+Em python podemos botar músicas
+Em python podemos usar dicionários
+Em python podemos manipular textos
+Em python podemos usar I.A
