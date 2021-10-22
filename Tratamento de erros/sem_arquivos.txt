@@ -1,0 +1,13 @@
+Lista de arquivos não encontrados:
+
+siddhartha.txt
+teste.txt
+siddhartha.txt
+teste.txt
+naruto.txt
+siddhartha.txt
+teste.txt
+naruto.txt
+siddhartha.txt
+teste.txt
+naruto.txt
