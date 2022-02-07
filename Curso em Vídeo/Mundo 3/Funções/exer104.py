@@ -10,5 +10,5 @@ def leiaint(msg):
     return v
 
 
-v = leiaint('Digite um valor ineteiro: ')
+v = leiaint('Digite um valor inteiro: ')
 print(f'O  valor {v} é inteiro !')
